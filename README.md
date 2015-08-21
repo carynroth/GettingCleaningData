@@ -1,4 +1,4 @@
-# GettingCleaningData
+# Getting & Cleaning Data
 This repository contains submission for Getting and Cleaning Data Course, as well as a code book describing each variable. 
 
 The script run_analysis.R 
