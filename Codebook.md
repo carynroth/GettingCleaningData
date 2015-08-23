@@ -30,106 +30,254 @@ This file contains 180 observations of 50 variables.
 These data are organized according to subject, activity and the mean value for each measurment. 
  
 ###Variable 1: "subject"
-integer
+integer,
 1-30 unique subjects in the dataset
 
 ###Variable 2: "activity"   
-character
-6 levels of this variable
+character,
+6 levels:
 WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 ###Variable 3: "timeBodyAccMeanX"      
 numeric
-mean of the mean of the time domain body acceleration signal in the X direction
+mean of the mean of the time domain body acceleration signal in the X direction,
 normalized, no units
 
 ###Variable 4: "timeBodyAccMeanY"      
 numeric
-mean of the mean of the time domain body acceleration signal in the Y direction
+mean of the mean of the time domain body acceleration signal in the Y direction,
 normalized, no units
 
 ###Variable 5: "timeBodyAccMeanZ"      
 numeric
-mean of the mean of the time domain body acceleration signal in the Z direction
+mean of the mean of the time domain body acceleration signal in the Z direction,
 normalized, no units
 
 ###Variable 6: "timeBodyAccStDevX"      
 numeric
-mean of the standard deviation of the time domain body acceleration signal in the X direction
+mean of the standard deviation of the time domain body acceleration signal in the X direction,
 normalized, no units
 
 ###Variable 7: "timeBodyAccStDevY"      
 numeric
-mean of the standard deviation of the time domain body acceleration signal in the Y direction
+mean of the standard deviation of the time domain body acceleration signal in the Y direction,
 normalized, no units
 
 ###Variable 8: "timeBodyAccStDevZ"      
 numeric
-mean of the standard deviation of the time domain body acceleration signal in the Z direction
+mean of the standard deviation of the time domain body acceleration signal in the Z direction,
 normalized, no units
     
 ###Variable 9: "timeGravityAccMeanX"      
 numeric
-mean of the mean of the time domain gravity acceleration signal in the X direction
+mean of the mean of the time domain gravity acceleration signal in the X direction,
 normalized, no units
 
 ###Variable 10: "timeGravityAccMeanY"      
 numeric
-mean of the mean of the time domain gravity acceleration signal in the Y direction
+mean of the mean of the time domain gravity acceleration signal in the Y direction,
 normalized, no units
 
 ###Variable 11: "timeGravityAccMeanZ"      
 numeric
-mean of the mean of the time domain gravity acceleration signal in the Z direction
+mean of the mean of the time domain gravity acceleration signal in the Z direction,
 normalized, no units
 
 ###Variable 12: "timeGravityAccStDevX"      
 numeric
-mean of the standard deviation of the time domain gravity acceleration signal in the X direction
+mean of the standard deviation of the time domain gravity acceleration signal in the X direction,
 normalized, no units
 
 ###Variable 13: "timeGravityAccStDevY"      
 numeric
-mean of the standard deviation of the time domain gravity acceleration signal in the Y direction
+mean of the standard deviation of the time domain gravity acceleration signal in the Y direction,
 normalized, no units
 
 ###Variable 14: "timeGravityAccStDevZ"      
 numeric
-mean of the standard deviation of the time domain gravity acceleration signal in the Z direction
+mean of the standard deviation of the time domain gravity acceleration signal in the Z direction,
 normalized, no units
 
+###Variable 15: "timeBodyAccJerkMeanX"      
+numeric
+mean of the mean of the time domain body acceleration jerk signal in the X direction,
+normalized, no units
 
+###Variable 16: "timeBodyAccJerkMeanY"      
+numeric
+mean of the mean of the time domain body acceleration jerk signal in the Y direction,
+normalized, no units
 
+###Variable 17: "timeBodyAccJerkMeanZ"      
+numeric
+mean of the mean of the time domain body acceleration jerk signal in the Z direction,
+normalized, no units
 
- "timeGravityAccMeanX"   
-[10] "timeGravityAccMeanY"    "timeGravityAccMeanZ"    "timeGravityAccStDevX"  
-[13] "timeGravityAccStDevY"   "timeGravityAccStDevZ"   "timeBodyAccJerkMeanX"  
-[16] "timeBodyAccJerkMeanY"   "timeBodyAccJerkMeanZ"   "timeBodyAccJerkStDevX" 
-[19] "timeBodyAccJerkStDevY"  "timeBodyAccJerkStDevZ"  "timeBodyGyroMeanX"     
-[22] "timeBodyGyroMeanY"      "timeBodyGyroMeanZ"      "timeBodyGyroStDevX"    
-[25] "timeBodyGyroStDevY"     "timeBodyGyroStDevZ"     "timeBodyGyroJerkMeanX" 
-[28] "timeBodyGyroJerkMeanY"  "timeBodyGyroJerkMeanZ"  "timeBodyGyroJerkStDevX"
-[31] "timeBodyGyroJerkStDevY" "timeBodyGyroJerkStDevZ" "freqBodyAccMeanX"      
-[34] "freqBodyAccMeanY"       "freqBodyAccMeanZ"       "freqBodyAccStDevX"     
-[37] "freqBodyAccStDevY"      "freqBodyAccStDevZ"      "freqBodyAccJerkMeanX"  
-[40] "freqBodyAccJerkMeanY"   "freqBodyAccJerkMeanZ"   "freqBodyAccJerkStDevX" 
-[43] "freqBodyAccJerkStDevY"  "freqBodyAccJerkStDevZ"  "freqBodyGyroMeanX"     
-[46] "freqBodyGyroMeanY"      "freqBodyGyroMeanZ"      "freqBodyGyroStDevX"    
-[49] "freqBodyGyroStDevY"     "freqBodyGyroStDevZ"    
-> 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
+###Variable 18: "timeBodyAccJerkStDevX"      
+numeric
+mean of the standard deviation of the time domain body acceleration jerk signal in the X direction,
+normalized, no units
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+###Variable 19: "timeBodyAccJerkStDevY"      
+numeric
+mean of the standard deviation of the time domain body acceleration jerk signal in the Y direction,
+normalized, no units
 
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
+###Variable 20: "timeBodyAccJerkStDevZ"      
+numeric
+mean of the standard deviation of the time domain body acceleration jerk signal in the Z direction,
+normalized, no units
+
+###Variable 21: "timeBodyGyroMeanX"      
+numeric
+mean of the mean of the time domain body gyroscopic signal in the X direction,
+normalized, no units
+
+###Variable 22: "timeBodyGyroMeanY"      
+numeric
+mean of the mean of the time domain body gyroscopic signal in the Y direction,
+normalized, no units
+
+###Variable 23: "timeBodyGyroMeanZ"      
+numeric
+mean of the mean of the time domain body gyroscopic signal in the Z direction,
+normalized, no units
+
+###Variable 24: "timeBodyGyroStDevX"      
+numeric
+mean of the standard deviation of the time domain body gyroscopic signal in the X direction,
+normalized, no units
+
+###Variable 25: "timeBodyGyroStDevY"      
+numeric
+mean of the standard deviation of the time domain body gyroscopic signal in the Y direction,
+normalized, no units
+
+###Variable 26: "timeBodyGyroStDevZ"      
+numeric
+mean of the standard deviation of the time domain body gyroscopic signal in the Z direction,
+normalized, no units
+
+###Variable 27: "timeBodyGyroJerkMeanX"      
+numeric
+mean of the mean of the time domain body gyroscopic jerk signal in the X direction,
+normalized, no units
+
+###Variable 28: "timeBodyGyroJerkMeanY"      
+numeric
+mean of the mean of the time domain body gyroscopic jerk signal in the Y direction,
+normalized, no units
+
+###Variable 29: "timeBodyGyroJerkMeanZ"      
+numeric
+mean of the mean of the time domain body gyroscopic jerk signal in the Z direction,
+normalized, no units
+
+###Variable 30: "timeBodyGyroJerkStDevX"      
+numeric
+mean of the standard deviation of the time domain body gyroscopic jerk signal in the X direction,
+normalized, no units
+
+###Variable 31: "timeBodyGyroJerkStDevY"      
+numeric
+mean of the standard deviation of the time domain body gyroscopic jerk signal in the Y direction,
+normalized, no units
+
+###Variable 32: "timeBodyGyroJerkStDevZ"      
+numeric
+mean of the standard deviation of the time domain body gyroscopic jerk signal in the Z direction,
+normalized, no units
+
+###Variable 33: "freqBodyAccMeanX"      
+numeric
+mean of the mean of the frequency domain body acceleration signal in the X direction,
+normalized, no units
+
+###Variable 34: "freqBodyAccMeanY"      
+numeric
+mean of the mean of the frequency domain body acceleration signal in the Y direction,
+normalized, no units
+
+###Variable 35: "freqBodyAccMeanZ"      
+numeric
+mean of the mean of the frequency domain body acceleration signal in the Z direction,
+normalized, no units
+
+###Variable 36: "freqBodyAccStDevX"      
+numeric
+mean of the standard deviation of the frequency domain body acceleration signal in the X direction,
+normalized, no units
+
+###Variable 37: "freqBodyAccStDevY"      
+numeric
+mean of the standard deviation of the frequency domain body acceleration signal in the Y direction,
+normalized, no units
+
+###Variable 38: "freqBodyAccStDevZ"      
+numeric
+mean of the standard deviation of the frequency domain body acceleration signal in the Z direction,
+normalized, no units
+
+###Variable 39: "freqBodyAccJerkMeanX"      
+numeric
+mean of the mean of the frequency domain body acceleration jerk signal in the X direction,
+normalized, no units
+
+###Variable 40: "freqBodyAccJerkMeanY"      
+numeric
+mean of the mean of the frequency domain body acceleration jerk signal in the Y direction,
+normalized, no units
+
+###Variable 41: "freqBodyAccJerkMeanZ"      
+numeric
+mean of the mean of the frequency domain body acceleration jerk signal in the Z direction,
+normalized, no units
+
+###Variable 42: "tfreqBodyAccJerkStDevX"      
+numeric
+mean of the standard deviation of the frequency domain body acceleration jerk signal in the X direction,
+normalized, no units
+
+###Variable 43: "freqBodyAccJerkStDevY"      
+numeric
+mean of the standard deviation of the frequency domain body acceleration jerk signal in the Y direction,
+normalized, no units
+
+###Variable 44: "freqBodyAccJerkStDevZ"      
+numeric
+mean of the standard deviation of the frequency domain body acceleration jerk signal in the Z direction,
+normalized, no units
+
+###Variable 45: "freqBodyGyroMeanX"      
+numeric
+mean of the mean of the frequency domain body gyroscopic signal in the X direction,
+normalized, no units
+
+###Variable 46: "freqBodyGyroMeanY"      
+numeric
+mean of the mean of the frequency domain body gyroscopic signal in the Y direction,
+normalized, no units
+
+###Variable 47: "freqBodyGyroMeanZ"      
+numeric
+mean of the mean of the frequency domain body gyroscopic signal in the Z direction,
+normalized, no units
+
+###Variable 48: "freqBodyGyroStDevX"      
+numeric
+mean of the standard deviation of the frequency domain body gyroscopic signal in the X direction,
+normalized, no units
+
+###Variable 49: "freqBodyGyroStDevY"      
+numeric
+mean of the standard deviation of the frequency domain body gyroscopic signal in the Y direction,
+normalized, no units
+
+###Variable 50: "freqBodyGyroStDevZ"      
+numeric
+mean of the standard deviation of the frequency domain body gyroscopic signal in the Z direction,
+normalized, no units  
 
 ##Sources
-Sources you used if any, otherise leave out.
+README file included with data
 
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
