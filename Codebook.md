@@ -1,9 +1,9 @@
 
----
-title: "Codebook"
-author: "Caryn Roth"
-date: "August 22, 2015"
----
+
+# Title: Codebook
+# Author: Caryn Roth
+# Date: August 22, 2015
+
 
 ## Project Description
 The purpose of this project is to take test and training data from smartphone accelerometer and gyroscope, take means and standard deviation values, and find means among subject and activity for each measurement. 
