@@ -1,4 +1,5 @@
 
+library(dplyr)
 
 ## create directory to download data into
 if (!file.exists("data")) {
@@ -56,8 +57,6 @@ colnames(mean_sd_df) <- gsub("\\.", "", colnames(mean_sd_df))
 colnames(mean_sd_df) <- gsub("mean", "Mean", colnames(mean_sd_df))
 colnames(mean_sd_df) <- gsub("std", "StDev", colnames(mean_sd_df))
   
-library(dplyr)
-
 ## create new tidy data set with means of each measurement for each activity for each subject
 new <- mean_sd_df %>%
   group_by(subject, activity) %>%
