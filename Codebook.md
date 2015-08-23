@@ -14,6 +14,8 @@ The purpose of this project is to take test and training data from smartphone ac
 ###Collection of the raw data
 Data collection was performed with smartphone accelerometers and gyroscopes and the data was manually labled using video recordings. Sensor signals were pre-processed, separated and filtered.
 
+A full description of the experiment and data is available at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ##Creating the tidy datafile
 
 ###Guide to create the tidy data file
